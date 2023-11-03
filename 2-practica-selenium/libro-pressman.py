@@ -1,4 +1,3 @@
-import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
@@ -12,8 +11,6 @@ try:
 
   #! Página web
   driver.get("https://biblioteca.um.edu.ar/")
-
-  #! Esperar qu ecargue la pag web, si pasan mas de 10 segundo salta una Exception.
   driver.implicitly_wait(10)
   print("Página abierta con éxito")
 
