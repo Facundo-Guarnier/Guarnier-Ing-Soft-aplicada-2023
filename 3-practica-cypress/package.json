@@ -12,7 +12,7 @@
   "author": "Guarnold",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^12.17.4",
+    "cypress": "^15.21.0",
     "cypress-dotenv": "^2.0.0",
     "dotenv": "^16.3.1"
   },
